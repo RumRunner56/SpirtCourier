@@ -78,7 +78,7 @@ public class Health : MonoBehaviour
 
         if (isPlayer)
         {
-            GameManager.Instance.LoseLife();
+            GameManager.Instance.LoseLife(gameObject);
 
             if (GameManager.Instance.lives > 0)
             {
